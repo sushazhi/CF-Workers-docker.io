@@ -19,7 +19,7 @@ jobs:
           
       - name: Add upstream remote
         run: |
-          git remote add upstream https://github.com/upstream/original.git
+          git remote add upstream https://github.com:cmliu/CF-Workers-docker.io.git
           
       - name: Fetch upstream changes
         run: |
